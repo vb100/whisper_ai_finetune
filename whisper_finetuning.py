@@ -1,3 +1,12 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                             #
+#  The full tutorial is available in Youtube.com -->                          #
+#             https://youtu.be/O60EnXcbi6g                                    #
+#                                                                             #
+#        - Data Science Garage - subscribe to get high quality ML material!   #
+#                                                                             #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 from dataclasses import dataclass
 from typing import Any, Dict, List, Union
 import torch
