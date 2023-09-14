@@ -12,7 +12,7 @@ from typing import Any, Dict, List, Union
 import torch
 
 # import the relavant libraries for loggin in
-from huggingface_hub import HfApi, HfFolder
+from huggingface_hub import HfApi, HfFolder, login
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Functions and procedures
@@ -96,8 +96,7 @@ def compute_metrics(pred):
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # STEP 0. Loging to Hugging Face
 # get your account token from https://huggingface.co/settings/tokens
-token = 'PASTE_YOUR_HUGGING_FACE_TOKEN_HERE'
-login_hugging_face(token)
+login()
 print('We are logged in to Hugging Face now!')
 
 
